@@ -14,4 +14,8 @@ export class ListComponent {
       power: 100,
     },
   ];
+
+  onDeleteCharacter(index: number): void {
+    console.log({ index });
+  }
 }

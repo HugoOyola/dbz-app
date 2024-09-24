@@ -22,8 +22,8 @@ export class MainPageComponent {
   ];
 
   onNewCharacter(character: Character): void {
-    // this.characters.push(character);
-    console.log('Main Page Component');
-    console.log(character);
+    this.characters.push(character);
+    // console.log('Main Page Component');
+    // console.log(character);
   }
 }
